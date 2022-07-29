@@ -1,0 +1,128 @@
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+
+h2 {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0%;
+    margin-top: -80px;
+}
+
+h1 + p {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(174, 174, 174);
+}
+
+
+
+h2 + p {
+    font-size: 17px;
+    color: rgb(137, 135, 135);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.img {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 60%;
+
+}
+
+.Money {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-content: center;
+   width: 40%;
+   line-height: 24px;
+   margin-top: 0%;
+
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #1D4F99;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+hr {
+    border: 1px solid rgb(137, 135, 135);
+    width: 400px;
+    margin-bottom: -30px;
+}
+
+hr + p {
+    background-color: white;
+    color: rgb(137, 135, 135);;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #D8383A;
+    border-radius: 2rem;
+    margin-top: 30px;
+}
+
+.login {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.Courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 2rem;
+    border: 2px solid #D8383A;
+    color: #D8383A;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #ffffff;
+}
